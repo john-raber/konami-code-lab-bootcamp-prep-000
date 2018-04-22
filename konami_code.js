@@ -21,7 +21,7 @@ function init() {
   });
   
   body.addEventListener('keydown', function showDetail(e) {
-  console.log(e.detail + ' is detail');
+  console.log(e.location + ' is location');
   });
 
   body.addEventListener('keydown', function showWhich(e) {
