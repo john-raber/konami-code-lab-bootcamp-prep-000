@@ -6,7 +6,7 @@ function init() {
   const body = document.body;
   let index = 0;
   
-  body.addEventListener('keydown', function onKeyDownHandler(e) {
+  body.addEventListener('keydown', function createSpy(e) {
     const key = parseInt(e.detail || e.which);
     
     if (key === code[index]) {
