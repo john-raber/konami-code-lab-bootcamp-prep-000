@@ -21,8 +21,4 @@ function init() {
       index = 0;
     }
   });
-  
-  body.addEventListener('keydown', function createSpy(e) {
-    console.log(e.which + ' is which');
-  });
 }
