@@ -20,3 +20,9 @@ function init() {
     }
   });
 }
+
+function detail() {
+  body.addEventListener('keydown', function showDetail(e) {
+    console.log(e.detail);
+  }
+}
