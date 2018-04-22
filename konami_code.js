@@ -22,9 +22,9 @@ function init() {
 }
 
 body.addEventListener('keydown', function showDetail(e) {
-  console.log(e.detail);
+  console.log(e.detail + ' is detail');
 });
 
 body.addEventListener('keydown', function showWhich(e) {
-  console.log(e.which);
+  console.log(e.which + ' is which');
 });
