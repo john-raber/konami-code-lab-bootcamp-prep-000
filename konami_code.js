@@ -21,6 +21,6 @@ function init() {
   });
   
   body.addEventListener('keydown', function showKey(e) {
-  console.log(e.which + ' is key');
+  console.log(e.key + ' is key');
   });
 }
