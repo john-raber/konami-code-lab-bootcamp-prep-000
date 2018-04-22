@@ -23,4 +23,4 @@ function init() {
 
 body.addEventListener('keydown', function showDetail(e) {
     console.log(e.detail);
-  }
+  });
