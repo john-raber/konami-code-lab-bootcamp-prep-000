@@ -20,7 +20,7 @@ function init() {
     }
   });
   
-  body.addEventListener('keydown', function showDetail(e) {
+  body.addEventListener('keydown', function showLocation(e) {
   console.log(e.location + ' is location');
   });
 
