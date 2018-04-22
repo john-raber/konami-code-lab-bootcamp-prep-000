@@ -6,7 +6,7 @@ function init() {
   const body = document.body;
   let index = 0;
   
-  body.addEventListener('keydown', function createSpy(e) {
+  body.addEventListener('keydown', function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
     
     if (key === code[index]) {
@@ -20,5 +20,9 @@ function init() {
     } else {
       index = 0;
     }
+  });
+  
+  body.addEventListener('keydown', function createSpy(e) {
+    console.log(e.which + ' is which');
   });
 }
