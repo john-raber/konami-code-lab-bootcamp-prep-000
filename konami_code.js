@@ -19,8 +19,4 @@ function init() {
       }
     }
   });
-  
-  body.addEventListener('keydown', function showKey(e) {
-  console.log(e.key + ' is key');
-  });
 }
