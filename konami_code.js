@@ -20,7 +20,7 @@ function init() {
     }
   });
   
-  body.addEventListener('keydown', function showWhich(e) {
-  console.log(e.which + ' is which');
+  body.addEventListener('keydown', function showKey(e) {
+  console.log(e.which + ' is key');
   });
 }
