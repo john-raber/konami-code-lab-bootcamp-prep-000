@@ -20,10 +20,6 @@ function init() {
     }
   });
   
-  body.addEventListener('keydown', function showLocation(e) {
-  console.log(e.location + ' is location');
-  });
-
   body.addEventListener('keydown', function showWhich(e) {
   console.log(e.which + ' is which');
   });
